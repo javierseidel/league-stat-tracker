@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 
-const apikey = "RGAPI-1e971add-9bf1-42f9-8eb7-262b9da694e6"
+const apikey = ""
 
 async function getSumId(summoner_name){
   const summoner_info_api = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"+ summoner_name + "?api_key=" + apikey
